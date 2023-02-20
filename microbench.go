@@ -10,14 +10,15 @@ import (
 
 // add imports for bench:
 
-// set run repetitions:
-const RUNS int = 65536
 
 // add variables for bench:
 
 // var a int64 = 0
 
 func main() {
+	// set run repetitions:
+	const RUNS int = 65536
+	
 	var start time.Time
 	var first time.Duration
 	var second time.Duration
